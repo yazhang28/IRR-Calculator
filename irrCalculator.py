@@ -10,7 +10,6 @@ references: https://docs.scipy.org/doc/numpy-1.10.4/reference/generated/numpy.ir
 import numpy as np # for array arithmetic
 from scipy.optimize import fsolve # for root calculation
 
-#class irrCalculator:
 # IRR given by npv = sum((cashflow at t/( 1 + irr)^t)) 
 def npvForIRR(irr, t, cashFlow):
     periods = np.arange(t) 
