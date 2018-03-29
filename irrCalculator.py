@@ -25,7 +25,7 @@ def calcIRR(t, cashFlow, x = 0.1):
 #    periods = np.arange(0,t) 
 #    return (cashFlow[0] + np.sum(cashFlow[1:]/((1 + irr) **periods[1:]))) 
    
-# to prove correctness of IRR returns T/F on the condition whether NPV is close to 0 
+# to prove correctness of IRR method prints T/F on the condition whether NPV is close to 0 
 def validate(irr, t, cashFlow):
     print('validation for NPV: ', npvForIRR(irr, t, cashFlow))
     print(np.allclose(npvForIRR(irr, t, cashFlow), 0))
