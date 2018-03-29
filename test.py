@@ -8,9 +8,9 @@ from irrCalculator import calcResults, repeatFLow
 
 # Tests #
 
-# given array of cashflow (cs), number of periods (t) starting from 0 
+# given array of cashflow (cs), number of periods (t) starting from 0, 
+# x the staring estimate for f(NPV) = 0 
 # cs[0] is the initial investment (negative value)
-
 
 # cash inflow
 cs = np.array([-70000,12000,15000,18000,21000,26000])
