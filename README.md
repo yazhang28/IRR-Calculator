@@ -1,5 +1,10 @@
 # IRR-Calculator
 
+
+to run test:
+`python test.py`
+`test.py` imports functions from `irrCalculator.py`
+  
 ### Assumptions
 Data on cashflow & initial investment will be received by methods in the form of arrays.  It's assumed that cashflow is already sorted, in ascending order, by date and that initial investment, whose value is negative, is the first element in the array.  
 
